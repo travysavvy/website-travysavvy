@@ -10,6 +10,9 @@ def about(request):
 def news(request):
     return render(request, 'news.html', {})
 
+def offers(request):
+    return render(request, 'offers.html', {})
+
 def contact(request):
     # form = MessageForm()
     # message_saved = False
