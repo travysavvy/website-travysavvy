@@ -1,0 +1,5 @@
+venv
+travysavvy/__pycache__
+pages/__pycache__
+pages/migrations/__pycache__
+.vscode
