@@ -7,6 +7,9 @@ def index(request):
 def about(request):
     return render(request, 'about.html', {})
 
+def news(request):
+    return render(request, 'news.html', {})
+
 def contact(request):
     # form = MessageForm()
     # message_saved = False
